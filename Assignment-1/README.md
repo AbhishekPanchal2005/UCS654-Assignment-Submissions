@@ -51,12 +51,14 @@ The table below shows the accuracy (%) achieved by each model for every sampling
 | **Sampling4 (Cluster)** | 90.91 | 98.70 | **100.00** | 98.70 | **100.00** |
 | **Sampling5 (Bootstrap)** | **96.10** | 97.40 | 98.70 | 96.10 | 98.70 |
 
-### Key Findings
-1.  **Best Performing Model:** **Random Forest (M3)** and **Gradient Boosting (M5)** consistently achieved the highest accuracies, reaching **100%** with Cluster and Systematic sampling. These ensemble methods proved robust against noise and effective at capturing complex patterns.
-2.  **Best Sampling Technique:**
-    * **Cluster Sampling (Sampling 4)** yielded the highest peak performance (100% accuracy) for tree-based models.
-    * **Stratified Sampling (Sampling 3)** provided the most consistent reliability across all models (especially SVM and Logistic Regression) by strictly maintaining the class balance.
-3.  **Model Sensitivity:** Logistic Regression (M1) and SVM (M4) were more sensitive to the sampling method, showing significant performance drops with simple random sampling compared to stratified or bootstrap methods.
+### 💡 Conclusion: Best Sampling Technique per Model
+Based on the experimental results, the following sampling techniques achieved the highest accuracy for each model:
+
+* **Logistic Regression (M1):** Bootstrap Sampling (96.1%)
+* **Decision Tree (M2):** Systematic Sampling (98.7%)
+* **Random Forest (M3):** Stratified Sampling (100.0%)
+* **SVM (M4):** Systematic Sampling (98.7%)
+* **Gradient Boosting (M5):** Cluster Sampling (100.0%)
 
 ## 📈 Result Graph
 The grouped bar chart below visually compares the performance of all models across the sampling techniques.
