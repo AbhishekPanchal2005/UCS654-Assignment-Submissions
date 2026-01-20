@@ -65,7 +65,7 @@ The grouped bar chart below visually compares the performance of all models acro
 
 ## 📂 Repository Structure
 * `Creditcard_data.csv`: The original imbalanced dataset.
-* `sampling_assignment.py`: The complete Python script for data processing, sampling, and modeling.
+* `sampling_assignment_abhishek_panchal.py`: The complete Python script for data processing, sampling, and modeling.
 * `sampling_assignment_results.csv`: The CSV file containing the final accuracy table.
 * `sampling_model_comparison_graph.png`: The visualization of the results.
 * `README.md`: Project documentation.
@@ -73,4 +73,4 @@ The grouped bar chart below visually compares the performance of all models acro
 ## 🚀 How to Run
 1.  Clone the repository.
 2.  Install dependencies: `pip install pandas numpy scikit-learn imbalanced-learn seaborn matplotlib`.
-3.  Run the script: `python sampling_assignment.py`.
+3.  Run the script: `python sampling_assignment_abhishek_panchal.py`.
