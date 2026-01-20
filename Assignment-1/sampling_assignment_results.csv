@@ -1,0 +1,6 @@
+,Logistic,Decision tree,random forest,SVM,Gradient boost
+Random,88.31,97.4,98.7,92.21,94.81
+Stratified,89.61,97.4,100.0,94.81,97.4
+Systematic,90.91,98.7,98.7,98.7,97.4
+Cluster-based,90.91,98.7,100.0,98.7,100.0
+Bootstrap,96.1,97.4,98.7,96.1,98.7
